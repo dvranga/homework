@@ -12,6 +12,7 @@ echo "$number is a primenumber"
 }
 read number
 prime
+function reversePrime() {
 number2=number
 reverse=0
 while [ $number -gt 0 ]
@@ -23,3 +24,5 @@ done
 echo reverse is $reverse
 number=reverse
 prime
+}
+reversePrime
